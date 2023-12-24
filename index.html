@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@200&family=Montserrat:wght@100&family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <title>Bootstrap</title>
+</head>
+<body  data-bs-spy="scroll" data-bs-target="#myNavbarr">
+
+  <nav id="myNavbarr" class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#about">Moi</a>
+          <a class="nav-link" href="#skills">Compétence</a>
+          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#recommendation">Recommandation</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about" class="container-fluid">
+  <div class="col-8 col-lg-4 profile-picture">
+    <img src="images/alpha.jpeg" alt="photo de moi" class="rounded-circle"/>
+  </div>
+  <div class="heading">
+    <h1>Hello, c'est moi alpha</h1>
+    <h3>Développeur</h3>
+    <a href="Docs/Expérience professionelle (1).pdf" class="button1">Telecharger</a>
+  </div>
+</section>
+<section id="skills">
+  <div class="divider"></div>
+  <div class="heading">
+    <h2>Compétence</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 95%">
+            <h5>HTML 85%</h5>
+          </div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 75%"> <h5>React 75%</h5></div>
+        </div> 
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 75%"> <h5>CSS 75%</h5></div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 85%"> <h5>Bootstrap 85%</h5></div>
+          </div> <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 85%"> <h5>Js 85%</h5></div>
+          </div> <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 85%"> <h5>Node js 85%</h5></div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section id="experience">
+  <div class="container">
+  <div class="divider white"></div>
+  <div class="heading">
+    <h2>Expérience professionnelle</h2>
+  </div>
+  <ul class="timeline">
+    <li>
+      <div class="timeline-badge"><span class="bi bi-briefcase-fill"></span>
+      </div>
+      <div class="timeline-panel-container">
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3>GOOGLE</h3>
+            <h4>Développeur web Senior</h4>
+            <p class="text-muted"><span class="bi bi-clock-fill"></span> 2020-2022</p>
+          </div>
+          <div class="timeline-body">
+            <p>Ajout de la possiblité  d'écouter une traduction dans google translate</p>
+            <p>Développement de Google Suggest en mode offline</p>
+            <p>Nouveau disign du player Youtube adapter au Mobille</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge"><span class="bi bi-briefcase-fill"></span>
+      </div>
+      <div class="timeline-panel-container-inverted">
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3>FACEBOOK</h3>
+            <h4>Développeur web</h4>
+            <p class="text-muted"><span class="bi bi-clock-fill"></span> 2017-2020</p>
+          </div>
+          <div class="timeline-body">
+            <p>Développement du bouton Share pour les applis Web mobile</p>
+            <p>Lancement automatique des vidéos en mode mute depuis la Timeline</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge"><span class="bi bi-briefcase-fill"></span>
+      </div>
+      <div class="timeline-panel-container">
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3>TWITTER</h3>
+            <h4>Développeur web Junior</h4>
+            <p class="text-muted"><span class="bi bi-clock-fill"></span> 2014-2017</p>
+          </div>
+          <div class="timeline-body">
+            <p>Création et Développement du Retweet pour l'appli Web</p>
+            <p>Intégration des vidéos sur les applis web mobile</p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+</section>
+<section id="education">
+  <div class="container">
+  <div class="divider"></div>
+  <div class="heading">
+    <h2>Education</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="education-blok">
+        <h5>2013-2017</h5>
+        <span class="bi-award-fill"></span>
+        <h3>Ecole polytechnique-Dakar</h3>
+        <h4>Diplôme d'ingenieur Mécatronique</h4>
+        <div class="divider"></div>
+        <p>système d'information</p>
+        <p>système ordined</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="education-blok">
+        <h5>2022-2023</h5>
+        <span class="bi-award-fill"></span>
+        <h3>GomyCode-Dakar</h3>
+        <h4>Formation Développement Web</h4>
+        <div class="divider"></div>
+        <p>HTML CSS JavaScript</p>
+        <p>Responsive disigne</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="portfolio">
+  <div class="container">
+  <div class="divider white"></div>
+  <div class="heading">
+    <h2>Portfolio</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook_share.png" class="img-thumbnail" alt="facebook images">
+        </a>
+      </div>
+      <div class="col-md-4">
+          <a href="https://google_translate.com" target="_blank">
+            <img src="images/google_translate.png" class="img-thumbnail" alt="facebook images">
+        </a>
+      </div>
+      <div class="col-md-4">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook_video.png" class="img-thumbnail" alt="facebook images">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/twitter_retweet.png" class="img-thumbnail" alt="facebook images">
+        </a>
+      </div>
+      <div class="col-md-4">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/youtube.png" class="img-thumbnail" alt="facebook images">
+        </a>
+      </div>
+      <div class="col-md-4">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/twitter_video.png" class="img-thumbnail" alt="facebook images">
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+  <section id="recommendation">
+    <div class="container">
+      <div class="divider"></div>
+      <div class="heading">
+        <h2>Recommandations</h2>
+        </div>
+        <div id="myCarousel" class="carousel carousel-dark slide text-center">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <h3>"alpha t'es le meilleur! merci pour tous..."</h3>
+             <h4>Larry Page google co-fondateur</h4>
+            </div>
+            <div class="carousel-item">
+              <h3>"L'esprit le plus creatif que j'ai vu de toute ma vie..."</h3>
+             <h4>Jack Dorsey, Twitter fondateur and CEO</h4>
+            </div>
+            <div class="carousel-item">
+              <h3>"alpha t'es le meilleur..."</h3>
+             <h4>Mark Zuckerberg, Facebook fondateur</h4>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+  </section>
+  <footer class="text-center">
+    <a href="#about">
+        <span class="bi bi-chevron-up span1"></span>
+    </a>
+    <h5> <span class="bi bi-ev-front"></span> geek-tronic.com</h5>
+  </footer>
+   <script src="script.js"></script>
+</body>
+</html>
